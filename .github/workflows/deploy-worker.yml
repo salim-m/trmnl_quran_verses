@@ -14,4 +14,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: deploy worker.js --name quran-verses-worker --compatibility-date 2024-09-23 --format esm
+          command: deploy worker.js --name quran-verses-worker --compatibility-date 2024-09-23 --format modules
